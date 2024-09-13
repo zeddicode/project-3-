@@ -1,0 +1,54 @@
+
+.samDesign {
+    width: 550px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.samDesign img {
+    width: 450px;
+    height: 500px;
+    overflow: hidden;
+    border-radius:  10px 10px;
+}
+
+.samDesign .price {
+    text-align: start;
+    font-size: 20px;
+    color: brown;
+    font-weight: 600;
+
+}
+.samDesign .product-name {
+    font-size: 20px;
+    color: brown;
+    margin: auto 0;
+}
+.samDesign img:hover {
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.samDesign img:hover {
+    transform: scale(0.9);
+}
+
+.samDesign .addToCartBtn {
+    background-color: grey;
+    min-width: 150px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+}
+.addToCartBtn:hover {
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}

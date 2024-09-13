@@ -1,0 +1,75 @@
+
+.signup h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.signup form {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.signup form input {
+    padding: 0.8rem;
+    font-size: 15px;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #4660d89f;
+    color: blue;
+}
+
+.signup form button {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    box-shadow: 0 0 5px #605ed4d7;
+    letter-spacing: 2px;
+}
+
+.signup form button:hover {
+    background-color: #895ec2;
+}
+
+.signup form p {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.alternatively{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.signup form hr{
+    width: 200px;
+    height: 3px;
+    background-color: rgba(137, 43, 226, 0.315);
+    border-radius: 20px;
+}
+
+.socialMedia a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.socialMediia{
+    display: flex;
+}

@@ -1,0 +1,32 @@
+.apple{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 10px;
+    /* background: #705252; */
+    background:  linear-gradient(180deg, #fde1ff , #e1ffea22 );
+
+}
+.apple h2{
+    font-size: 50px;
+    color: #171717;
+    font-weight: 700 ;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.apple hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 20px;
+    background: #252525;
+    margin-bottom: 20px;
+}
+
+.apple-product{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+}
+

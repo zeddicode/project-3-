@@ -1,0 +1,56 @@
+
+.weDesign {
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.weDesign img {
+    width: 250px;
+    height: 350px;
+    overflow: hidden;
+    border-radius:  10px 10px;
+}
+
+.weDesign .price {
+    text-align: start;
+    font-size: 20px;
+    color: brown;
+    font-weight: 600;
+
+}
+.weDesign .product-name {
+    font-size: 20px;
+    color: brown;
+    margin: auto 0;
+}
+.weDesign img:hover {
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.weDesign img:hover {
+    transform: scale(0.9);
+}
+
+.weDesign .addToCartBtn {
+    background-color: grey;
+    min-width: 150px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 10px;
+    color: white;
+}
+
+.addToCartBtn:hover {
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
