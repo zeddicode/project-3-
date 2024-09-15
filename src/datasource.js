@@ -15,14 +15,14 @@ import image12 from './assets/0062514_250_B-removebg-preview.png'
 const DATASOURCE = [
     {
         id:1,
-        productName: "corporate",
+        productName: "Wall street corporate",
         productPrice: 150,
         productImage: image1
     },
 
     {
         id:2,
-        productName: "corporate",
+        productName: "royal",
         productPrice: 120,
         productImage:image8
     },
@@ -36,7 +36,7 @@ const DATASOURCE = [
 
     {
         id:4,
-        productNme: "corporate",
+        productNme: "marine",
         productPrice: 132,
         productImage:image4
     },
@@ -50,7 +50,7 @@ const DATASOURCE = [
 
     {
         id:6,
-        productName: "corporate",
+        productName: "Civilian",
         pproductPrice: 127,
         productImage: image6
     },
@@ -62,7 +62,7 @@ const DATASOURCE = [
     },
     {
         id:8,
-        productName: "corporate",
+        productName: "Bad guys",
         productPrice: 111,
         productImage:image2
     },
@@ -76,7 +76,7 @@ const DATASOURCE = [
 
     {
         id:10,
-        productName: "corporate",
+        productName: "Immaculate",
         productPrice: 110,
         productImage: image10
     },

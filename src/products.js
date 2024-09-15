@@ -10,14 +10,14 @@ import product6 from './assets/16hero-removebg-preview.png';
 export const PRODUCTS = [
     {
         id: 1,
-        productName: " Galaxy Z Fold 6",
-        price: 1500,
+        productName: "Samsung Galaxy Z Fold 6",
+        productPrice: 1500,
         productImage:   product1,
     },
     
     {
         id: 4,
-        productName: "Iphone 14 ",
+        productName: "Iphone 15 babe ",
         productPrice: 1000,
         productImage: product4,
     },
@@ -31,22 +31,22 @@ export const PRODUCTS = [
 
     {
         id: 2,
-        productName: "Iphone 14",
+        productName: "Iphone 14 Pro",
         productPrice: 1000,
         productImage: product2,
     },
 
     {
         id: 5,
-        productName: "Galaxy Z Flip",
-        productPrice: 900,
+        productName: "Samsung Galaxy Z Flip",
+        productPrice: 1900,
         productImage: product5,
     },
 
     {
         id: 6,
-        productName: "iphoe 16",
-        productPrice: 1550,
-        productImage: product6,
-    }
+        productName: "iphone 16 pro",
+        productPrice: 1250,
+        productImage: product6
+    },
 ]

@@ -1,7 +1,7 @@
 
-.signup h1 {
+.signup h2 {
     text-align: center;
-    margin-bottom: 5px;
+    margin-top: 15px;
     font-style: italic;
     font-size: 2rem;
     letter-spacing: 2px;
@@ -70,6 +70,14 @@
     margin-right: 10px;
 }
 
-.socialMediia{
+.socialMedia{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.already a{
+    text-decoration: none;
 }

@@ -11,10 +11,12 @@ import { Footer } from './components/footer';
 import { Apple } from './pages/items/Apple/apple';
 import Wears from './pages/Wears/wears';
 import Samsung from './pages/Samsung/samsung';
+import { ShopContextProvider } from './context/shop-context';
 
 function App() {
   return (
     <div className="App">
+      <ShopContextProvider>
       <Router>
         <Navbar/>
         {/* <Header/> */}
@@ -31,6 +33,7 @@ function App() {
         </Routes>
         <Footer/>
       </Router>
+      </ShopContextProvider>
     </div>
   );
 }

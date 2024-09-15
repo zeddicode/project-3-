@@ -6,7 +6,7 @@ import { FacebookLogo, GoogleLogo, InstagramLogo, LinkedinLogo, TwitterLogo } fr
 export const SignUp = () => {
   return (
     <div className='signup'>
-      <h1>Sign Up</h1>
+      <h2>Sign Up</h2>
       <div className="signup">
         <form>
             <input type="text" placeholder='First Name' />
@@ -14,9 +14,9 @@ export const SignUp = () => {
             <input type="email" placeholder='Email'/>
             <input type="password" placeholder='Password'/>
             <input type="password" placeholder='Confirm password'/>
-            <p>By signing up, you agree to our Terms & Condotions </p>
+            <p>By signing up, you agree to our Terms & Conditions </p>
             <button>Sign Up</button>
-            <p>
+            <p className='already'>
             Already have an account?     
             <Link to='/login'>
                Log in

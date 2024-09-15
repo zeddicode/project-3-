@@ -16,7 +16,7 @@ export const Navbar = () => {
          <img src={crown} alt=""/>
           </Link>
           <Link to='/home'>
-              <b>KINGHAYZED</b>
+              <b>HAYZED-HUB</b>
           </Link>      
       </div>
       <div className="nav-menu">

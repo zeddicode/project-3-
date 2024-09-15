@@ -13,7 +13,7 @@ export const Footer = () => {
                 <img src={crown} alt="" />
                 </Link>
                 <Link to='/home'>
-                    <p>KINGHAYZED</p>
+                    <p>HAYZED-HUB</p>
                 </Link>      
         </div>
         <ul className='footer-content'>
@@ -51,8 +51,8 @@ export const Footer = () => {
             </div>
         
         <div className="copyright">
-            <hr/>
-                <p>&copy; 2021 KINGHAYZED. All rights reserved</p>
+            <hr/><br />
+                <p>&copy; 2021 HAYZED-HUB. All rights reserved</p>
         </div>
                 
     </div>

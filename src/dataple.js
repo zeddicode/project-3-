@@ -20,81 +20,81 @@ const DATAPLE = [
     {
         id: 1,
         productName: "Iphone 16 proMax",
-        productPrice: 1700000,
+        productPrice: 1000,
         productImage: d1_pic,
     },
 
     {
         id: 2,
-        productName: "Iphone 16 pro",
-        productPrice: 1600000,
+        productName: "Iphone 15 pro",
+        productPrice: 1600,
         productImage: d2_pic,
     },
 
     {
         id: 3,
         productName: "Iphone 16 ",
-        productPrice: 1700000,
+        productPrice: 1100,
         productImage: d3_pic,
     },
 
     {
         id: 4,
-        productName: "Iphone 16 proMax",
-        productPrice: 1700000,
+        productName: "Iphone 15 proMax",
+        productPrice: 1200,
         productImage: d4_pic,
     },
 
     {
         id: 5,
-        productName: "Iphone 16 proMax",
-        productPrice: 1700000,
+        productName: "Iphone 14 proMax",
+        productPrice: 1300,
         productImage: d5_pic,
     },
 
     {
         id: 6,
-        productName: "Iphone 16 proMax",
-        productPrice: 1700000,
+        productName: "Iphone 13 proMax",
+        productPrice: 1100,
         productImage: d6_pic,
     },
 
     {
         id: 7,
-        productName: "Iphone 16 proMax",
-        productPrice: 1700000,
+        productName: "Iphone 16 Plus",
+        productPrice: 1700,
         productImage: d7_pic,
     },
 
     {
         id: 8,
         productName: "Iphone 16 proMax",
-        productPrice: 1700000,
+        productPrice: 1299,
         productImage: d8_pic,
     },
 
     {
         id: 9,
-        productName: "Iphone 16 proMax",
-        productPrice: 1700000,
+        productName: "Iphone 15 proMax",
+        productPrice: 1000,
         productImage: d9_pic,
     },
 
     {
         id: 10,
-        productName: "Iphone 16 proMax",
-        productPrice: 1700000,
+        productName: "Iphone 14 proMax",
+        productPrice: 1050,
         productImage: d10_pic,
     },
     {
         id: 11,
-        productName: "Iphone 16 proMax",
-        productPrice: 1700000,
+        productName: "Iphone 13 proMax",
+        productPrice: 1100,
         productImage: d11_pic,
     },
     {
         id: 12,
-        productName: " iphone 15 ",
+        productName: " iphone 12 ",
         productPrice:   100.000,
         productImage: d12_pic,
     },
