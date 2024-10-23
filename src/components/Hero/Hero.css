@@ -4,6 +4,10 @@
     display: flex;
 }
 
+.hero a{
+    text-decoration: none;
+}
+
 .hero-left{
     flex: 1;
     display: flex;
@@ -42,6 +46,8 @@
     font-weight: 500;
     cursor: pointer;
 }
+
+
 
 .hero-right{
     flex: 1;

@@ -13,10 +13,10 @@ export const SamDesign = (props) => {
         <div className='samDesign'>
             <img src={productImage} alt="" />
                 <p className='product-name'>{productName}</p>
-            <p className='price'>${productPrice}</p>
+            <p className='price'>₦{productPrice}</p>
             
             <button className='addToCartBtn' onClick={() => addToCart(id)}> 
-                Add To Cart{cartItemAmount > 0 && <>{cartItemAmount}</>} 
+                Add To Cart{cartItemAmount > 0 && <>({cartItemAmount})</>} 
                 </button>
         </div>
     )

@@ -12,6 +12,7 @@ import { Apple } from './pages/items/Apple/apple';
 import Wears from './pages/Wears/wears';
 import Samsung from './pages/Samsung/samsung';
 import { ShopContextProvider } from './context/shop-context';
+import FreeItem from './components/Freestyle/FreeItem';
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
           <Route path='/apple' element={<Apple/>}/>
           <Route path='/wears' element={<Wears/>}/>
           <Route path='/samsung' element={<Samsung/>}/> 
+          <Route path='/freeItem' element={<FreeItem/>}/> 
+          
         </Routes>
         <Footer/>
       </Router>

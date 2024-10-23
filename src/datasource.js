@@ -1,96 +1,52 @@
-import image1 from './assets/0053483_150_a-removebg-preview.png'
-import image2 from './assets/0062514_250_B-removebg-preview.png'
-import image3 from './assets/0062992_170_a-removebg-preview.png'
-import image4 from './assets/0066131_320_a-removebg-preview.png'
-import image5 from './assets/0074444_350_A-removebg-preview.png'
-import image6 from './assets/0074446_170_A-removebg-preview.png'
-import image7 from './assets/0074518_350_A-removebg-preview.png'
-import image8 from './assets/0074514_170_A-removebg-preview.png'
-import image9 from './assets/0074516_170_A-removebg-preview.png'
-import image10 from './assets/0074448_350_A-removebg-preview.png'
-import image11 from './assets/0053483_150_a-removebg-preview.png'
-import image12 from './assets/0062514_250_B-removebg-preview.png'
+import image1 from './assets/AirPods_4_PDP_Image_Position_2__WWEN_5000x.webp'
+import image3 from './assets/airpod Max.webp'
+import image4 from './assets/Apple_Watch_Series_9_GPS_41mm_Midnight_Aluminum_Midnight_Sport_Band_PDP_Image_Position-1__WWEN_5000x.webp'
+import image5 from './assets/Apple_Watch_Series_9_GPS_41mm_Starlight_Aluminum_Starlight_Sport_Loop_PDP_Image_Position-1__WWEN_5000x.webp'
+import image6 from './assets/Airpods_2ndGen1_2048x.webp'
+import image8 from './assets/Apple_Watch_Series_9_GPS_45mm_PRODUCTRED_Aluminum_PRODUCTRED_Sport_Band_PDP_Image_Position-1__WWEN_5000x.webp'
 
 
 const DATASOURCE = [
     {
-        id:1,
-        productName: "Wall street corporate",
-        productPrice: 150,
+        id:30,
+        productName: "AirPods 4",
+        productPrice: "150,000",
         productImage: image1
     },
 
     {
-        id:2,
-        productName: "royal",
-        productPrice: 120,
+        id:31,
+        productName: "iwatch series 9",
+        productPrice: "120,000",
         productImage:image8
     },
 
     {
-        id:3,
-        productName: "corporate",
-        pproductPrice: 130,
+        id:32,
+        productName: "AirPod Max",
+        productPrice: "130,000",
         productImage:image3
     },
 
     {
-        id:4,
-        productNme: "marine",
-        productPrice: 132,
+        id:33,
+        productName: "iwatch series 9",
+        productPrice: "132,000",
         productImage:image4
     },
 
     {
-        id:5,
-        productName: "corporate",
-        productPrice: 175,
+        id:34,
+        productName: "iWatch series 8",
+        productPrice: "175,000",
         productImage:image5
     },
 
     {
-        id:6,
-        productName: "Civilian",
-        pproductPrice: 127,
+        id:35,
+        productName: "AirPods 2nd Gen",
+        productPrice: 100000,
         productImage: image6
-    },
-    {
-        id:7,
-        productName: "corporate",
-        productPrice: 122,
-        productImage: image7
-    },
-    {
-        id:8,
-        productName: "Bad guys",
-        productPrice: 111,
-        productImage:image2
-    },
-
-    {
-        id:9,
-        productName: "corporate",
-        productPrice: 170,
-        productImage: image9
-    },
-
-    {
-        id:10,
-        productName: "Immaculate",
-        productPrice: 110,
-        productImage: image10
-    },
-    {
-        id:11,
-        productName: "corporate",
-        productPrice: 120,
-        productImage: image11
-    },
-    {
-        id:12,
-        productName: "corporate",
-        productPrice: 130,
-        productImage: image12
     }
     
 ]

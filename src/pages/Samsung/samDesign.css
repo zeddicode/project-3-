@@ -1,18 +1,20 @@
 
 .samDesign {
-    width: 550px;
+    width: 350px;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 1px solid rgb(219, 188, 188);
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 5px 5px 0 rgb(121, 104, 104);
 }
 
 .samDesign img {
-    width: 450px;
-    height: 500px;
-    overflow: hidden;
-    border-radius:  10px 10px;
+    width: 350px;
+    height: 300px;
+    border-radius:  0 0 10px 10px;
 }
 
 .samDesign .price {
@@ -33,7 +35,7 @@
 }
 
 .samDesign img:hover {
-    transform: scale(0.9);
+    transform: scale(1.9);
 }
 
 .samDesign .addToCartBtn {

@@ -1,0 +1,206 @@
+.freeItem{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.freeItem h3{
+    font-size: 30px;
+    font-weight: 200;
+    color: black;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    letter-spacing: -2px;
+    text-align: start;
+}
+
+.phoneItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.phonebox  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 21vw;
+    height: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    background: #f1efefc0;
+}
+
+.phonebox img{
+    width: 150px;
+    height: 200px;
+}
+
+.boxInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.boxInfo h2{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    width: 100%;
+}
+
+.boxInfo p{
+    font-size: 20px;
+    color: rgb(187, 134, 236);
+    font-weight: 100;
+}
+
+.boxInfo button{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.boxInfo button:hover{
+    background: rgb(21, 5, 36);
+    color: white;
+}
+
+.boxInfo h2 img{
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    align-items: baseline;
+}
+.laptop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.macbook{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 26vw;
+    height: 37vh;
+    margin: 10px;
+    border-radius: 10px;
+    background: #000;
+    padding: 20px;
+}
+
+.macbook img{
+    width: 350px;
+    height: 200px;
+}
+
+.bookinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.bookinfo h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.938);
+    
+}
+
+.bookinfo p{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(243, 234, 234);
+    font-weight: 100;
+}
+
+.bookinfo button{
+    width: 100px;
+    height: 30px;
+    background: black;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bookinfo button:hover{
+    background: rgb(21, 5, 36);
+    color: wheat;
+}
+.iWatches{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.iwatch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 21vw;
+    height: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid rgb(219, 188, 188);
+    box-shadow: 5px 5px 5px 0 rgb(121, 104, 104);
+}
+
+.iwatch img{
+    width: 150px;
+    height: 200px;
+}
+
+.iwatchinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.iwatchinfo h2{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    width: 100%;
+}
+
+.iwatchinfo p{
+    font-size: 20px;
+    color: rgb(187, 134, 236);
+    font-weight: 100;
+}
+
+.iwatchinfo button{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid red;
+}
+.iwatchinfo button:hover{
+    background: rgb(21, 5, 36);
+    color: white;
+}
+
+.iwatchinfo h2 img{
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    align-items: baseline;
+}

@@ -1,6 +1,6 @@
 
 .weDesign {
-    width: 250px;
+    width: 350px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -10,8 +10,8 @@
 }
 
 .weDesign img {
-    width: 250px;
-    height: 350px;
+    width: 300px;
+    height: 400px;
     overflow: hidden;
     border-radius:  10px 10px;
 }
@@ -34,7 +34,7 @@
 }
 
 .weDesign img:hover {
-    transform: scale(0.9);
+    transform: scale(1.9);
 }
 
 .weDesign .addToCartBtn {

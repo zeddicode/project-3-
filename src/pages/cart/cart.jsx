@@ -10,52 +10,39 @@ import DATAPLE from '../../dataple'
 
 
 export const Cart = () => {
-  const { cartItems} = useContext(ShopContext);
+  const { cartItems, getTotalCartAmount } = useContext(ShopContext);
+  const totalAmount = getTotalCartAmount();
 
+  const combinedData = [...PRODUCTS, ...DATAPLE, ...DATASOURCE, ...SAMDATA]
+  
   return (
     <div className='cart'>
       <div>
         <h1>Your cart items </h1>
         </div>
         <div className="cartItems">
-          {PRODUCTS.map((product) => {
-            if (cartItems[product.id] !== 0) {
-              return <CartItem  data={product} />
-            }
-            return null;
-          })}
+        {combinedData
+        .filter((product) => cartItems[product.id] > 0)
+        .map((product) => {
+          if(cartItems[product.id] !== 0) {
+            return <CartItem key={product.id} data={product} />
+          }
+          return null;
+        })}
         </div>
-        <div className="cartItems">
-          {SAMDATA.map((samDesign) => {
-            if (cartItems[samDesign.id] !== 0) {
-              return <CartItem data={samDesign} />
-            }
-            return null;
-          })}
-        </div>
-        <div className="cartItems">
-          {DATASOURCE.map((weDesign) => {
-            if (cartItems[weDesign.id] !== 0) {
-              return <CartItem data={weDesign} />
-            }
-            return null;
-          })}
-      </div>
-      <div className="cartItems">
-          {DATAPLE.map((itemDesign) => {
-            if (cartItems[itemDesign.id] !== 0) {
-              return <CartItem data={itemDesign} />
-            }
-            return null;
-          })}
-      </div>
+
+        {totalAmount !==0 ? (
       <div className="checkout">
-        <p>Subtotal:</p>
-        <button>Continue Shopping </button><br />
+        <p>Subtotal: <button> ₦{totalAmount}</button> </p>
+        <button>Continue  </button><br />
         <button>Checkout</button>
       </div>
+        ):
+      (<p>Your shopping cart is empty</p>
+
+      )}
     </div>
-  )
-}
+  )  
+};
 
 

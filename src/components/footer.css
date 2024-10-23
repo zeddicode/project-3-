@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     justify-content: center;
-    background: #201420e3;
+    background: #0e0d0ef3;
 }
 
 .footer-logo{
@@ -15,7 +15,7 @@
 }
 .footer-logo p{
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     color: #fff;
 }
 .footer-logo a{
@@ -45,8 +45,7 @@
 }
 
 .copyright p{
-    font-size: 20px;
-    color: #252525;
+    font-size: 12px;
     text-align: center;
     margin-bottom: 20px;
     color: whitesmoke;

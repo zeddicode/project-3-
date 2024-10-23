@@ -5,7 +5,7 @@
     margin-top: 50px;
     margin-right: 10px;
     /* background: #705252; */
-    background:  linear-gradient(180deg, #fde1ff , #e1ffea22 );
+    background:  linear-gradient( #8e4294 , #8199da22, #d579db);
 
 }
 .apple h2{
@@ -26,7 +26,7 @@
 .apple-product{
     margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px;
 }
 

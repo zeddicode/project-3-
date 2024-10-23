@@ -10,115 +10,91 @@ import d9_pic from './assets/15ultra-removebg-preview.png';
 import d10_pic from './assets/14----removebg-preview.png';
 import d11_pic from './assets/12mini-removebg-preview.png';
 import d12_pic from './assets/15-promax3-removebg-preview.png';
-import d13_pic from './assets/png-clipart-apple-watch-smartwatch-wearable-technology-apple-products-electronics-gadget-removebg-preview.png';
-import d14_pic from './assets/png-transparent-macbook-pro-laptop-apple-laptop-electronics-computer-laptop-removebg-preview.png';
-import d15_pic from './assets/kisspng-airpods-airpower-headphones-inductive-charging-wir-bao-sc-khng-dy-airplus-cho-airpods-5c7e2e7b6d0454.5379696815517733074465-removebg-preview.png';
 
 
 const DATAPLE = [
 
     {
-        id: 1,
+        id: 15,
         productName: "Iphone 16 proMax",
-        productPrice: 1000,
+        productPrice: "1,600,000",
         productImage: d1_pic,
     },
 
     {
-        id: 2,
+        id: 16,
         productName: "Iphone 15 pro",
-        productPrice: 1600,
+        productPrice: "1,600,000",
         productImage: d2_pic,
     },
 
     {
-        id: 3,
+        id: 17,
         productName: "Iphone 16 ",
-        productPrice: 1100,
+        productPrice: "1,100,000",
         productImage: d3_pic,
     },
 
     {
-        id: 4,
+        id: 18,
         productName: "Iphone 15 proMax",
-        productPrice: 1200,
+        productPrice: "1,200,000",
         productImage: d4_pic,
     },
 
     {
-        id: 5,
+        id: 19,
         productName: "Iphone 14 proMax",
-        productPrice: 1300,
+        productPrice: "1,300,000",
         productImage: d5_pic,
     },
 
     {
-        id: 6,
+        id: 20,
         productName: "Iphone 13 proMax",
-        productPrice: 1100,
+        productPrice: "1,100,000",
         productImage: d6_pic,
     },
 
     {
-        id: 7,
+        id: 21,
         productName: "Iphone 16 Plus",
-        productPrice: 1700,
+        productPrice: "1,700,000",
         productImage: d7_pic,
     },
 
     {
-        id: 8,
+        id: 22,
         productName: "Iphone 16 proMax",
-        productPrice: 1299,
+        productPrice: "1,200,000",
         productImage: d8_pic,
     },
 
     {
-        id: 9,
+        id: 23,
         productName: "Iphone 15 proMax",
-        productPrice: 1000,
+        productPrice: "1,000,000",
         productImage: d9_pic,
     },
 
     {
-        id: 10,
+        id: 24,
         productName: "Iphone 14 proMax",
-        productPrice: 1050,
+        productPrice: "1,050,000",
         productImage: d10_pic,
     },
     {
-        id: 11,
+        id: 25,
         productName: "Iphone 13 proMax",
-        productPrice: 1100,
+        productPrice: "1,100,000",
         productImage: d11_pic,
     },
     {
-        id: 12,
-        productName: " iphone 12 ",
-        productPrice:   100.000,
+        id: 26,
+        productName: " Iphone 12 ",
+        productPrice:   "1,000,000",
         productImage: d12_pic,
     },
-
-    {
-        id: 13,
-        productName: "  macbook",
-        productPrice:   800.000,
-        productImage: d13_pic,
-    },
-
-    {
-        id: 14,
-        productName: "  airpod",
-        productPrice:   300.000,
-        productImage: d14_pic,
-    },
-
-    {
-        id: 15,
-        productName: "  apple watch ",
-        productPrice:   450.000,
-        productImage: d15_pic,
-    }
 
 ]
 export default DATAPLE;
