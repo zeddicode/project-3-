@@ -10,7 +10,7 @@ const Wears = () => {
     <div className='wears'>
     <Exclusive/>
 
-      <h2>FITTED SUITS for YOUR STEEZE</h2>
+      <h2>NECESSARY ACCESSORIES 4 YOUR STEEZE</h2>
       <hr/>
       <div className="wears-item">
         {DATASOURCE.map((weDesign) => (

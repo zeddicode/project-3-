@@ -10,35 +10,35 @@ const DATASOURCE = [
     {
         id:30,
         productName: "AirPods 4",
-        productPrice: "150,000",
+        productPrice: 100000,
         productImage: image1
     },
 
     {
         id:31,
         productName: "iwatch series 9",
-        productPrice: "120,000",
+        productPrice: 100000,
         productImage:image8
     },
 
     {
         id:32,
         productName: "AirPod Max",
-        productPrice: "130,000",
+        productPrice: 100000,
         productImage:image3
     },
 
     {
         id:33,
         productName: "iwatch series 9",
-        productPrice: "132,000",
+        productPrice: 100000,
         productImage:image4
     },
 
     {
         id:34,
         productName: "iWatch series 8",
-        productPrice: "175,000",
+        productPrice: 100000,
         productImage:image5
     },
 

@@ -11,52 +11,52 @@ const SAMDATA = [
     {
         id: 7,
         productName: "MacBook Air 2021",
-        productPrice: "1,050,000",
+        productPrice: 2999,
         productImage: img_1,
     },
     
     {
         id: 8,
         productName: " MacBook Air 2022",
-        productPrice: '1,100,000',
+        productPrice: 37777,
         productImage: img_2,
     },
 
     {
         id: 9,
         productName: "MacBook Mini 2021",
-        productPrice: '1,200,000',
+        productPrice: 78888,
         productImage: img_3,
 
     },
     {
         id: 10,
         productName: " MacBook Pro 2021",
-        productPrice: '1,000,000',
+        productPrice: 7777,
         productImage: img_4,
     },
     {
         id: 11,
         productName: "MacBook Pro 2022",
-        productPrice: "1,500,000",
+        productPrice: 88888,
         productImage: img_5,
     },
     {
         id: 12,
         productName: "MacBook Pro 2023",
-        productPrice: "1,800,000",
+        productPrice: 3333,
         productImage: img_6,
     },
     {
         id: 13,
         productName: "MacBook Pro 2024",
-        productPrice: "1,900,000",
+        productPrice: 333444,
         productImage: img_7,
     },
     {
         id: 14,
         productName: "MacBook Pro 2023",
-        productPrice: "1,900,000",
+        productPrice: 33333,
         productImage: img_8,
     }
 
